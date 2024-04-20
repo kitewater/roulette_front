@@ -32,9 +32,9 @@ function App () {
           width: "100%",
         }}>
         <Routes>
-          <Route path="/api" element={<Home />} />
-          <Route path="api/user" element={<Login />} />
-          <Route path="api/user/join" element={<SignUp />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/user" element={<Login />} />
+          <Route path="/user/join" element={<SignUp />} />
           <Route path="/code" element={<BoardMain />} />
           <Route path="/code/answer/:postId" element={<PostDetailAns />}/>
           <Route path="/code/:postId" element={<PostDetailReq />}/>

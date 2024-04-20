@@ -6,7 +6,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const linkLogin = () => {
-    navigate('api/user');
+    navigate('/user');
   };
 
   return (

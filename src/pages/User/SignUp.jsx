@@ -4,7 +4,7 @@ const SignUp = () => {
   const navigate = useNavigate();
 
   const linkHome = () => {
-    navigate('/api');
+    navigate('/');
   };
 
   return (
